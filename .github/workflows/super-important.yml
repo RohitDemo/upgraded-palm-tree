@@ -13,4 +13,4 @@ jobs:
 
       - name: The amazing check
         run: |
-          exit 1
+          echo "Will the status check fail now?"
