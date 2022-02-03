@@ -1,0 +1,15 @@
+name: Super Important Workflow 
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  super-important-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a one-line script
+        run: echo "This is super important! Must not be avoided"
