@@ -11,5 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run a one-line script
-        run: echo "This is super important! Must not be avoided"
+      - name: The amazing check
+        run: |
+          exit 1
